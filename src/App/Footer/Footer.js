@@ -30,7 +30,7 @@ function Footer() {
                         </a>
                     </li>
                     <li className="nav-list__item">
-                        <a href="/achievment" className="nav-list__link">
+                        <a href="../Achievments/Achievments" className="nav-list__link">
                             <p className="nav-list-item__title">achievements</p>
                             <p className="nav-list-item__sub-title">
                             Suscipit est consequatur nemo voluptatem est labore saepe.
@@ -41,22 +41,26 @@ function Footer() {
                         </a>
                     </li>
                     <li className="nav-list__item">
-                        <p className="nav-list-item__title">creations</p>
-                        <p className="nav-list-item__sub-title">
-                            Suscipit est consequatur nemo voluptatem est labore saepe.
-                        </p>
-                        <svg className="nav-icon">
-                            <use href="#nav__icon"></use>
-                        </svg>
+                        <a href="/creations" className="nav-list__link">
+                            <p className="nav-list-item__title">creations</p>
+                            <p className="nav-list-item__sub-title">
+                                Suscipit est consequatur nemo voluptatem est labore saepe.
+                            </p>
+                            <svg className="nav-icon">
+                                <use href="#nav__icon"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li className="nav-list__item">
-                        <p className="nav-list-item__title">games</p>
-                        <p className="nav-list-item__sub-title">
-                            Suscipit est consequatur nemo voluptatem est labore saepe.
-                        </p>
-                        <svg className="nav-icon">
-                            <use href="#nav__icon"></use>
-                        </svg>
+                        <a href="/games" className="nav-list__link">
+                            <p className="nav-list-item__title">games</p>
+                            <p className="nav-list-item__sub-title">
+                                Suscipit est consequatur nemo voluptatem est labore saepe.
+                            </p>
+                            <svg className="nav-icon">
+                                <use href="#nav__icon"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </nav>
