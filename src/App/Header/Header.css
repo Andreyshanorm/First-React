@@ -62,6 +62,7 @@
     font-weight: 400;
     letter-spacing: 0.9px;
     text-transform: uppercase;
+    padding-top: 4px;
 }
 
 .rigth-part__text-grey {
@@ -76,8 +77,8 @@
 
 .rigth-part__text-grey span{
     color: #FFF;
-    font-family: var(--merriweather-font);
-    font-size: 1em;
+    font-family: var(--roboto-font);
+    font-size: 1.4em;
     font-weight: 400;
     letter-spacing: 1.05px;
     text-transform: uppercase;
