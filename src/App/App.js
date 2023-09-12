@@ -1,19 +1,19 @@
-import Header from "./Header/Header";
-import Main from "./Main/Main";
+
 import Footer from "./Footer/Footer";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Main from './Main/Main'
 import Achievments from "./Achievments/Achievments";
+
 
 function App() {
     return(
         <div className="container">
             <Router>
-                    <Header></Header>
-                    <Main></Main>
-                    <Footer></Footer>
                 <Routes>
+                    <Route exact path="/" element={<Main/>}></Route>
                     <Route exact path="/achievments" element={<Achievments/>}/>
                 </Routes>
+                <Footer></Footer>
             </Router>
         </div>
     );

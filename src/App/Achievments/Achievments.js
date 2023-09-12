@@ -1,14 +1,13 @@
 import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 import Main from './Main/Main';
 
-function Achievments(props) {
+
+function Achievments() {
     return (
-        <div className="container">
-            <Header></Header>
-            <Main></Main>
-            <Footer></Footer>
-        </div>
+        <>
+            <Header/>
+            <Main/>
+        </>
     );
 }
 

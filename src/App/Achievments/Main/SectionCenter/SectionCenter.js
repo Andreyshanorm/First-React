@@ -1,5 +1,5 @@
 import './SectionCenter.css';
-import mainImg from './image 1.png'
+
 
 function SectionCenter() {
     return (

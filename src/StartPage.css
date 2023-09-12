@@ -1,0 +1,21 @@
+.Start-page__content-title{
+    color: var(--Primary);
+    font-family: var(--big-sholders-font);
+    font-size: 538px;
+    font-style: normal;
+    font-weight: 743;
+    line-height: normal;
+    letter-spacing: -32.28px;
+    text-transform: uppercase;
+}
+
+.Start-page__content-text{
+    color: #FFF;
+    font-family: var(--iceland-font);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;  
+}
