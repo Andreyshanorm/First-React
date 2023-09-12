@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --big-sholders-font: 'Big Shoulders Display';
+  --inder-font: 'Inder', sans-serif;
+  --merriweather-font: 'Merriweather', sans-serif;
+  --roboto-font: 'Roboto', sans-serif;
+  --iceland-font: 'Iceland', cursive;
+  --Primary: #E84A4A
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+

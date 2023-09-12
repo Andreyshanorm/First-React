@@ -1,0 +1,84 @@
+.header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .header__left-part {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.level, .coins {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.header__left-part-add-icon{
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__left-part-add-icon svg{
+    width: 15px;
+    height: 15px;
+}
+
+.left-header-text{
+    color: #ccc;
+    font-family: var(--big-sholders-font);
+    font-size: 1.4em;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    align-self: flex-end;
+}
+
+.header-text-green{
+    color: #7DFF68;
+    font-family: var(--big-sholders-font);
+    font-size: 1.8em;
+    letter-spacing: 1.95px;
+    text-transform: uppercase;
+}
+ 
+.header__right-part {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.rigth-part__text-white {
+    color: #FFF;
+    font-family: var(--merriweather-font);
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.rigth-part__text-grey {
+    color: #7A7A7A;
+    font-family: var(--merriweather-font);
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+}
+
+
+.rigth-part__text-grey span{
+    color: #FFF;
+    font-family: var(--merriweather-font);
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+}
