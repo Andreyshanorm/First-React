@@ -4,13 +4,13 @@ import './Header.css';
 
 function Header() {
     return(
-        <header class="header">
-            <div class="header__left-part">
-            <div class="level">
-                <p class="level__num header-text-green">48</p>
-                <p class="level__text left-header-text">Level</p>
+        <header className="header">
+            <div className="header__left-part">
+            <div className="level">
+                <p className="level__num header-text-green">48</p>
+                <p className="level__text left-header-text">Level</p>
             </div>
-            <div class="header__left-part-add-icon">
+            <div className="header__left-part-add-icon">
                 <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="11"
@@ -24,17 +24,17 @@ function Header() {
                 />
                 </svg>
             </div>
-            <div class="coins">
-                <p class="coins__num header-text-green">1,425</p>
-                <p class="coins__text left-header-text">Coins Awarded</p>
+            <div className="coins">
+                <p className="coins__num header-text-green">1,425</p>
+                <p className="coins__text left-header-text">Coins Awarded</p>
             </div>
             </div>
-            <div class="header__right-part">
-            <p class="rigth-part__text-white">Credits</p>
-            <div class="rigth-part__text-grey">
+            <div className="header__right-part">
+            <p className="rigth-part__text-white">Credits</p>
+            <div className="rigth-part__text-grey">
                 Server Time: <span>8 : 42</span>
             </div>
-            <div class="rigth-part__text-grey">
+            <div className="rigth-part__text-grey">
                 Local Time: <span>15 : 42</span>
             </div>
             </div>

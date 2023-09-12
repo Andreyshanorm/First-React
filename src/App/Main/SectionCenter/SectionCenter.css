@@ -1,0 +1,35 @@
+.main-img__block {
+    position: relative;
+}
+
+.main-img-block__item{
+    object-fit: cover;
+    object-position: center;
+    margin-top: 50px;
+}
+
+.main-img__text{
+    width: 680px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-img__text p {
+    color: #FFF;
+    font-family: var(--iceland-font);
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 1.35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.signature{
+    color: #ccc;
+    font-size: 1.1em;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+    text-shadow: #000003;
+}

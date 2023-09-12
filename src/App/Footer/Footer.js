@@ -4,57 +4,57 @@ import './Footer.css';
 
 function Footer() {
     return(
-        <footer class="footer">
-            <nav class="navigation">
-                <ul class="nav__list">
-                    <li class="nav-list__item">
-                        <a href="/" class="nav-list__link">
-                            <p class="nav-list-item__title">Beginning</p>
-                            <p class="nav-list-item__sub-title">
+        <footer className="footer">
+            <nav className="navigation">
+                <ul className="nav__list">
+                    <li className="nav-list__item">
+                        <a href="/" className="nav-list__link">
+                            <p className="nav-list-item__title">Beginning</p>
+                            <p className="nav-list-item__sub-title">
                             Suscipit est consequatur nemo voluptatem est labore saepe.
                             </p>
-                            <svg class="nav-icon">
+                            <svg className="nav-icon">
                             <use href="#nav__icon"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="nav-list__item">
-                        <a href="/logs" class="nav-list__link">
-                            <p class="nav-list-item__title">Logs</p>
-                            <p class="nav-list-item__sub-title">
+                    <li className="nav-list__item">
+                        <a href="/logs" className="nav-list__link">
+                            <p className="nav-list-item__title">Logs</p>
+                            <p className="nav-list-item__sub-title">
                             Suscipit est consequatur nemo voluptatem est labore saepe.
                             </p>
-                            <svg class="nav-icon">
+                            <svg className="nav-icon">
                             <use href="#nav__icon"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="nav-list__item">
-                        <a href="/achievment" class="nav-list__link">
-                            <p class="nav-list-item__title">achievements</p>
-                            <p class="nav-list-item__sub-title">
+                    <li className="nav-list__item">
+                        <a href="/achievment" className="nav-list__link">
+                            <p className="nav-list-item__title">achievements</p>
+                            <p className="nav-list-item__sub-title">
                             Suscipit est consequatur nemo voluptatem est labore saepe.
                             </p>
-                            <svg class="nav-icon">
+                            <svg className="nav-icon">
                             <use href="#nav__icon"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="nav-list__item">
-                        <p class="nav-list-item__title">creations</p>
-                        <p class="nav-list-item__sub-title">
+                    <li className="nav-list__item">
+                        <p className="nav-list-item__title">creations</p>
+                        <p className="nav-list-item__sub-title">
                             Suscipit est consequatur nemo voluptatem est labore saepe.
                         </p>
-                        <svg class="nav-icon">
+                        <svg className="nav-icon">
                             <use href="#nav__icon"></use>
                         </svg>
                     </li>
-                    <li class="nav-list__item">
-                        <p class="nav-list-item__title">games</p>
-                        <p class="nav-list-item__sub-title">
+                    <li className="nav-list__item">
+                        <p className="nav-list-item__title">games</p>
+                        <p className="nav-list-item__sub-title">
                             Suscipit est consequatur nemo voluptatem est labore saepe.
                         </p>
-                        <svg class="nav-icon">
+                        <svg className="nav-icon">
                             <use href="#nav__icon"></use>
                         </svg>
                     </li>
