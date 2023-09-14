@@ -1,35 +1,167 @@
-.main-img__block {
-    position: relative;
+.main-acheiv__block {
+    background: rgb(217,84,84);
+    background: radial-gradient(circle, rgba(217,84,84,0.3169642857142857) 10%, rgba(0,0,0,1) 67%);
 }
 
-.main-img-block__item{
-    object-fit: cover;
-    object-position: center;
-    margin-top: 50px;
-}
-
-.main-img__text{
-    width: 680px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.main-img__text p {
+.achiev-content__title{
     color: #FFF;
+    text-align: center;
     font-family: var(--iceland-font);
     font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 1.35px;
     text-transform: uppercase;
-    text-align: center;
 }
 
-p.signature{
-    color: #ccc;
-    font-size: 1.1em;
+.filter__block{
+    display: flex;
+    gap: 30px;
+    margin: 20px 20px 0 20px;
+    padding: 10px 0 10px 65px;
+    background: linear-gradient(90deg, rgba(232, 74, 74, 0.00) 0%, rgba(232, 74, 74, 0.17) 51.94%, rgba(232, 74, 74, 0.00));
+    border-top: 1px solid var(--Primary);
+}
+
+.filter__title{
+    color: #7A7A7A;
+    font-family: var(--iceland-font);
+    font-size: 1.2em;
+    font-weight: 400;
     letter-spacing: 1.05px;
     text-transform: uppercase;
-    text-shadow: #000003;
+}
+
+.filter__menu{
+    display: flex;
+    gap: 15px;
+}
+
+.filter{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.filter p{
+    color: var(--Primary);
+    font-family: var(--iceland-font);
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+}
+
+
+.filter.active p{
+    color: var(--Primary, #E84A4A);
+    text-shadow: 0px 0px 3px #FF4646;
+    font-family: var(--iceland-font);
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+}
+
+.cards-list{
+    display: flex;
+    gap: 20px;
+    padding: 60px 44px 0 44px;
+    flex-wrap: wrap;
+}
+
+.cards-list__item{
+    display: flex;
+    flex-direction: column;
+    max-width: 117px;
+    min-height: 144px;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+.cards-list__item:hover{
+    transform: translateY(-10px);
+}
+
+.card-list-item__title{
+    margin-top: 8px;
+    justify-self: center;
+    color: #D4A944;
+    text-align: center;
+    font-family: var(--big-sholders-font);
+    font-size: 0.8em;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+}
+
+.card-list-item__img-container{
+    width: 115px;
+    min-height: 113px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.card__tag{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 0;
+    color: #000003;
+    text-align: center;
+    font-family: var(--iceland-font);
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-list-item__img-container img{
+    padding-top: 10px;
+    width: 84px;
+    height: 75px;
+}
+
+.cards-list__item.legendary .card-list-item__img-container{
+    border: 1px solid #E8BB4A;
+    box-shadow: 0px 0px 25px 3px #E8BB4A;
+}
+
+.cards-list__item.legendary .card__tag{
+    background: #D4A944;
+}
+
+.cards-list__item.epic .card-list-item__title{
+    color: var(--Primary);
+}
+
+.cards-list__item.epic .card__tag{
+    background: var(--Primary);
+}
+
+.cards-list__item.epic .card-list-item__img-container{
+    border: 1px solid var(--Primary);
+    box-shadow: 0px 0px 25px 3px var(--Primary);
+}
+
+.cards-list__item.rare .card-list-item__title{
+    color: #4AAFE8;
+}
+
+.cards-list__item.rare .card__tag{
+    background: var(--Primary);
+    background: #4AAFE8;
+}
+
+.cards-list__item.rare .card-list-item__img-container{
+    border: 1px solid #4AAFE8;
+    box-shadow: 0px 0px 25px 3px #4AAFE8;
+}
+
+.cards-list__item .semi-hidden{
+    opacity: 0.6;
 }
