@@ -5,28 +5,23 @@ import { useEffect } from 'react';
 
 function Header() {
     useEffect(() => {
+        window.setInterval(function () {
+            const clock = document.getElementById('self-clock')
+            let date = new Date();
+            let hours = date.getHours();
+            let min = date.getMinutes();
+            let sec = date.getSeconds();
+
+
+            if (hours < 10){hours='0' + hours}
+            if (min < 10){min='0' + min}
+            if (sec < 10){sec='0' + sec}
 
             
+            let countClock = hours + ':' + min + ':' + sec;
+            clock.innerHTML = countClock
+        })
         
-        
-        window.onload = function() {
-            window.setInterval(function () {
-                const clock = document.getElementById('self-clock')
-                let date = new Date();
-                let hours = date.getHours();
-                let min = date.getMinutes();
-                let sec = date.getSeconds();
-
-
-                if (hours < 10){hours='0' + hours}
-                if (min < 10){min='0' + min}
-                if (sec < 10){sec='0' + sec}
-
-
-                let countClock = hours + ':' + min + ':' + sec;
-                clock.innerHTML = countClock
-            })
-        }
     })
 
 
