@@ -11,6 +11,8 @@ body{
 .container{
     max-width: 1620px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .main{
@@ -28,6 +30,8 @@ body{
 
 
 /* -------FOOTER-------  */
-
+.footer{
+    margin-top: 80px;
+}
 
 /* -------FOOTER-------  */
